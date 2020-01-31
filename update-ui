@@ -1,5 +1,5 @@
 #!/bin/bash
-cd $HOME/GitHub/visbo-server-ui
+cd $HOME/GitHub/visbo-ui-build
 echo "01: Checking Local Status of Visbo UI Branch"
 git status
 if [ $? -ne 0 ]
